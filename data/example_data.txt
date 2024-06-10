@@ -1,0 +1,2 @@
+Este é um arquivo de texto de exemplo.
+Ele será enviado do cliente para o servidor.
