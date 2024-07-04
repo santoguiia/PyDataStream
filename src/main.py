@@ -1,7 +1,7 @@
 import sys
 from tcp_client import tcp_client
 from tcp_server import tcp_server
-from udp_client import udp_client
+from udp_client1 import udp_client
 from udp_server import udp_server
 
 def main():
@@ -39,3 +39,12 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+'''
+# refused
+python src\main.py tcp client data\example_data.txt 127.0.0.1 65432
+
+# ok
+python src\main.py tcp client data\example_data.txt 127.0.0.1 62699
+'''
